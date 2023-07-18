@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.slider {
+	width:80%;
+	background:gray;
+	margin:0 auto;
+}
+
+.test {
+	background:red;
+	width:100px;
+	margin:10px;
+	display:flex;
+	text-align:center;
+}
+
+.test img {
+	width:100px;
+	margin:0 auto;
+}
+
+.item {
+	height:30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000;
+}

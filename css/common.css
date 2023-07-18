@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear:both;
+}
+
+/*---------------↓検索エリア-----------------*/
+
+.search-area {
+	min-width:100%;
+	height:60px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:aqua;
+}
+
+.form-search {
+	position:relative;/*フォームの相対位置*/
+	margin-bottom:15px;/*フォームの下に余白*/
+	display:flex;
+	height:45px;
+	margin-top:13px;
+}
+
+.category-select {
+	width:140px;/*検索ボタンの横幅*/
+	height:100%;/*検索ボタンの縦幅*/
+	border-radius:0 2px 2px 0;/*検索ボタンの角を丸める*/
+	background:#fc9e03;
+	border:none;/*検索ボタンの枠線を消す*/
+	color:#fff;/*検索ボタンのテキストカラー*/
+	font-weight:bold;/*検索ボタンのテキスト太字*/
+	font-size:16px;/*検索ボタンのフォントサイズ*/
+	outline:none;
+	box-sizing:border-box;
+	padding-left:5px;
+}
+
+.category-select option {
+	background:white;
+	color:black;
+}
+
+.search {
+	outline:0;/*クリック時の青い枠線消す*/
+	height:100%;/*検索ボックスの高さ*/
+	padding:0 10px;/*テキスト位置調整*/
+	border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/
+	background:#eee;/*検索ボックスの背景カラー*/
+	width:400px;
+	box-sizing:border-box;
+	border:none;
+}
+
+.search-submit {
+	width:70px;/*検索ボタンの横幅*/
+	height:100%;/*検索ボタンの縦幅*/
+	border-radius:0 2px 2px 0;/*検索ボタンの角を丸める*/
+	background:#fc9e03;
+	border:none;/*検索ボタンの枠線を消す*/
+	color:#fff;/*検索ボタンのテキストカラー*/
+	font-weight:bold;/*検索ボタンのテキスト太字*/
+	font-size:16px;/*検索ボタンのフォントサイズ*/
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*---------------↓検索エリア-----------------*/
+
+.search-area {
+	width:100%;
+	height:60px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:rgb(109, 109, 109);
+}
+
+.form-search {
+	position:relative;/*フォームの相対位置*/
+	margin-bottom:15px;/*フォームの下に余白*/
+	display:flex;
+	height:45px;
+	margin-top:13px;
+}
+
+.category-select {
+	width:140px;/*検索ボタンの横幅*/
+	height:100%;/*検索ボタンの縦幅*/
+	border-radius:0 2px 2px 0;/*検索ボタンの角を丸める*/
+	background:#fc9e03;
+	border:none;/*検索ボタンの枠線を消す*/
+	color:#fff;/*検索ボタンのテキストカラー*/
+	font-weight:bold;/*検索ボタンのテキスト太字*/
+	font-size:16px;/*検索ボタンのフォントサイズ*/
+	outline:none;
+	box-sizing:border-box;
+	padding-left:5px;
+}
+
+.category-select option {
+	background:white;
+	color:black;
+}
+
+.search {
+	outline:0;/*クリック時の青い枠線消す*/
+	height:100%;/*検索ボックスの高さ*/
+	padding:0 10px;/*テキスト位置調整*/
+	border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/
+	background:#eee;/*検索ボックスの背景カラー*/
+	width:400px;
+	box-sizing:border-box;
+	border:none;
+}
+
+.search-submit {
+	width:70px;/*検索ボタンの横幅*/
+	height:100%;/*検索ボタンの縦幅*/
+	border-radius:0 2px 2px 0;/*検索ボタンの角を丸める*/
+	background:#fc9e03;
+	border:none;/*検索ボタンの枠線を消す*/
+	color:#fff;/*検索ボタンのテキストカラー*/
+	font-weight:bold;/*検索ボタンのテキスト太字*/
+	font-size:16px;/*検索ボタンのフォントサイズ*/
+}
+
+
+
+/*---------------↓メイン-----------------*/
+
+.container {
+	width:100%;
+	display:flex;
+}
+
+
+/*---------------↓左-----------------*/
+
+.left-content {
+	width:80%;
+	padding:20px 40px;
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	align-content:flex-start;
+}
+
+.search-word {
+	width:100%;
+	font-size:small;
+	display:flex;
+}
+
+.search-word p {
+	margin-right:20px;
+}
+
+.search-result {
+	width:100%;
+	min-height:300px;
+	margin-top:10px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.search-result-item {
+	display:flex;
+	width:25%;
+	flex-direction:column;
+	box-sizing:border-box;
+	padding:30px;
+	margin-bottom:25px;
+}
+
+.search-result-image {
+	width:100%;
+	margin-bottom:5px;
+}
+
+
+/*---------------↓右-----------------*/
+
+.right-content {
+	width:20%;
+	background:#e9edef;
+	display:flex;
+	padding:20px 0px;
+	flex-direction:column;
+	border-left:1px solid gray;
+}
+
+.pickup-category {
+	width:80%;
+	background:white;
+	padding:10px;
+	border-radius:8px;
+	margin:0 auto;
+	border:1px solid gray;
+}
+
+.pickup-product {
+	width:80%;
+	background:white;
+	padding:10px;
+	border-radius:8px;
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid gray;
+}
+
+.pickup {
+	width:80%;
+	margin:0 auto;
+	margin-top:20px;
+	box-sizing:border-box;
+	padding:10px;
+	text-align:center;
+	border-bottom:1px solid gray;
+}
+
+.pickup-image {
+	width:100px;
+	height:100px;
+}
+
+.pickup a{
+	display:block;
+	font-weight:bold;
+}

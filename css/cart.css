@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+.container {
+	width:100%;
+	background:#ddd;
+	display:flex;
+}
+
+
+/*---------------↓左-----------------*/
+
+.left-content {
+	width:70%;
+	background:#e9edef;
+	padding:20px 0px;
+	display:flex;
+	box-sizing:border-box;
+	justify-content:center;
+}
+
+.cart-content {
+	background:white;
+	width:95%;
+	border-radius:8px;
+	border:1px solid gray;
+	box-sizing:border-box;
+	padding:20px 30px;
+}
+
+.cart-item:first-of-type {
+	margin-top:20px;
+}
+
+.cart-item {
+	width:100%;
+	margin-top:0px;
+	border-top:1px solid gray;
+	display:flex;
+	padding:10px 0px;
+}
+
+.cart-content-image {
+	width:130px;
+	height:130px;
+	padding:5px;
+	box-sizing:border-box;
+}
+
+.cart-content-image img{
+	width:100%;
+}
+
+.cart-content-about {
+	flex-grow: 1;
+	padding:15px;
+}
+
+.cart-content-about a {
+	font-weight:bold;
+	display:block;
+}
+
+.cart-stock {
+	font-size:small;
+	color:orange;
+}
+
+.cart-content-quantity {
+	width:100px;
+	display:flex;
+	align-items:center;
+	box-sizing:border-box;
+	padding:0px 15px;
+	flex-wrap:wrap;
+	align-content:center;
+}
+
+.cart-content-price {
+	width:100px;
+	font-weight:bold;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	box-sizing:border-box;
+}
+
+.cart-delete {
+	font-size:small;
+}
+
+.cart-item-footer {
+	display:flex;
+	justify-content:flex-end;
+	padding:15px 0px;
+}
+
+.cart-content-total-price {
+	font-size:18px;
+	font-weight:bold;
+}
+
+.cart-empty {
+	margin-right:auto;
+}
+
+
+/*---------------↓右-----------------*/
+
+.right-content {
+	width:30%;
+	background:#e9edef;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+	padding:20px 0px;
+	align-items:flex-start;
+}
+
+.cart-submit {
+	background:white;
+	width:85%;
+	border-radius:8px;
+	border:1px solid gray;
+	box-sizing:border-box;
+	padding:30px;
+}
+
+.subtotal {
+	float:left;
+}
+
+.cart-total {
+	float:right;
+}
+
+.cart-border {
+	width:100%;
+	border-bottom:1px solid gray;
+	margin:20px 0px;
+}
+
+.total {
+	float:left;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.total-num {
+	float:right;
+	font-weight:bold;
+	color:red;
+	font-size:18px;
+}
+
+.cart-sumbit-button {
+	width:100%;
+	text-align:center;
+	background:orange;
+	display:block;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	padding:10px 0px;
+	margin-top:20px;
+}

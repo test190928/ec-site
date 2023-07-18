@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+
+li {
+	list-style:none;
+}
+
+.nav {
+	width:100%;
+	height:50px;
+	background:#313131;
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
+
+.logo {
+	margin-right:auto;
+	margin-left:20px;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+.user {
+	width:100px;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	box-sizing:border-box;
+	border:4px solid rgba(0,0,0,0);
+	position:relative;
+	background: #313131;
+}
+
+.user:hover {
+	border-bottom:4px solid #fc9e03;
+}
+
+.user-name {
+	color:white;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	text-align:center;
+	line-height:45px;
+	height:100%;
+}
+
+.user:hover .user-name {
+	color:#fc9e03;
+}
+
+
+.user:hover > ul > li {
+	display:block;
+
+}
+
+.cart {
+	position:relative;
+	text-decoration:none;
+	color:white;
+	width:100px;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background:#fc9e03;
+}
+
+.cart-quantity {
+	font-weight:bold;
+	margin-left:3px;
+}
+
+
+/*-----------ナビ------------*/
+
+
+.gnav {
+    display: flex;
+    height: 100%;
+    width: 100px;
+    margin-right:10px;
+    z-index:10;
+}
+.gnav > li {
+    width: 100%;
+}
+
+.gnav li {
+    list-style: none;
+    position: relative;
+}
+.gnav li a {
+    background:#313131;
+    color: #fff;
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.gnav li li {
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.gnav li li a {
+    border-top: 1px solid #eee;
+    background:white;
+    color:black;
+    box-shadow: 0px 5px 8px gray;
+}
+
+.gnav li li:first-of-type a {
+	border-radius:8px 8px 0px 0px;
+}
+
+.gnav li li:last-of-type a {
+	border-radius:0px 0px 8px 8px;
+}
+
+.gnav li:hover > ul > li {
+    height: 50px;
+    width:200px;
+    overflow: visible;
+    transform:translate(-50%, 0%);
+}
+

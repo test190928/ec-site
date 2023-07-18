@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.footer {
+	min-height:200px;
+	width:100%;
+	background:#d2d7d9;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	align-items:flex-start;
+}
+
+.footer-top {
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0px;
+	border-bottom:1px solid gray;
+}
+
+.footer-ul {
+	width:80%;
+	height:100%;
+	display:flex;
+	justify-content:space-around;
+	padding:40px 0px;
+}
+
+.footer-logo-area {
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	background:#313131;
+	padding:10px 0px;
+}
+
+.footer-logo {
+	text-decoration:none;
+	color:white;
+}
